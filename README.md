@@ -4,23 +4,14 @@
 ### heroku上部署Xray
 - [x] 支持VMess和VLESS两种协议
 - [x] 支持自定义websocket路径
-- [x] 伪装首页（3D元素周期表）
+- [x] 伪装首页
 - [x] HTML5测速
-- [x] 使用v2ray最新版构建
+- [x] 使用xray最新版构建
 
-请求`/`，返回3D元素周期表
-
-![image](https://github.com/gogomi555/XXHH/blob/main/doc/1.png)
-
-请求`/speedtest/`，html5-speedtest测速页面
+域名末尾加上`/speedtest`，触发html5-speedtest测速页面
 
 ![image](https://github.com/gogomi555/XXHH/blob/main/doc/2.png)
 
-请求`/test/`，文件下载速度测试
-
-![image](https://github.com/gogomi555/XXHH/blob/main/doc/3.png)
-
-请求`/ray`（可配置）xray websocket路径
 
 
 ### 环境变量说明
